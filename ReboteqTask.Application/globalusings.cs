@@ -1,0 +1,18 @@
+﻿global using AutoMapper;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using ReboteqTask.Application.Bases;
+global using ReboteqTask.Application.Behaviors;
+global using ReboteqTask.Application.Features.Order.Commands.Models;
+global using ReboteqTask.Application.Features.Order.Commands.Results;
+global using ReboteqTask.Application.Features.Product.Query.Models;
+global using ReboteqTask.Application.Features.Product.Query.Results;
+global using ReboteqTask.Application.Middleware;
+global using ReboteqTask.Services.Abstract;
+global using System.Net;
+global using System.Reflection;
+global using Entities = ReboteqTask.Core.Entities;

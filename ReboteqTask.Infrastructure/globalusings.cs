@@ -1,0 +1,11 @@
+﻿global using Bogus;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using Microsoft.Extensions.DependencyInjection;
+global using ReboteqTask.Core.Entities;
+global using ReboteqTask.Infrastructure.Abstracts;
+global using ReboteqTask.Infrastructure.Configurations;
+global using ReboteqTask.Infrastructure.Data;
+global using ReboteqTask.Infrastructure.InfrastructureBases.Abstract;
+global using ReboteqTask.Infrastructure.InfrastructureBases.Implementation;
+global using ReboteqTask.Infrastructure.Repositories;

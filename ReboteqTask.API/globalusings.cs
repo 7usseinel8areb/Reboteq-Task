@@ -1,0 +1,13 @@
+﻿global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using ReboteqTask.API.Base;
+global using ReboteqTask.Application;
+global using ReboteqTask.Application.Bases;
+global using ReboteqTask.Application.Features.Order.Commands.Models;
+global using ReboteqTask.Application.Features.Product.Query.Models;
+global using ReboteqTask.Core.AppMetaData;
+global using ReboteqTask.Infrastructure;
+global using ReboteqTask.Infrastructure.Data;
+global using ReboteqTask.Service;
+global using System.Net;
